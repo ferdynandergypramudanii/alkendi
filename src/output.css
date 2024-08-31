@@ -556,17 +556,114 @@ video {
   --tw-contain-style:  ;
 }
 
+.container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+@media (min-width: 340px){
+  .container{
+    max-width: 340px;
+  }
+}
+
+@media (min-width: 540px){
+  .container{
+    max-width: 540px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1180px){
+  .container{
+    max-width: 1180px;
+  }
+}
+
+.fixed{
+  position: fixed;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.left-\[-100\%\]{
+  left: -100%;
+}
+
+.left-\[0\]{
+  left: 0;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-50{
+  z-index: 50;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.min-h-\[100vh\]{
+  min-height: 100vh;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .font-Fira{
   font-family: Fira Sans Condensed, sans-serif;
-}
-
-.font-Itim{
-  font-family: Itim, cursive;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-2xl{
@@ -574,12 +671,54 @@ video {
   line-height: 2rem;
 }
 
-.font-bold{
-  font-weight: 700;
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-.text-green-500{
-  --tw-text-opacity: 1;
-  color: rgb(34 197 94 / var(--tw-text-opacity));
+.duration-300{
+  transition-duration: 300ms;
 }
 
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 340px){
+  .sm\:h-20{
+    height: 5rem;
+  }
+
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px){
+  .lg\:static{
+    position: static;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:min-h-fit{
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+
+  .lg\:w-auto{
+    width: auto;
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
+  .lg\:bg-transparent{
+    background-color: transparent;
+  }
+}

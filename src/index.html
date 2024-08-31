@@ -16,27 +16,47 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="font-Fira text-2xl">Alkendi</div>
+    <!-- HEADER -->
+    <header id="navbar" class="fixed w-full top-0 left-0 z-50">
+        <nav class="container flex items-center justify-between h-16 sm:h-20">
+            <div class="font-Fira text-2xl">alkendi</div>
 
-            <div>
-                <ul>
+            <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[100vh] w-full flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+                <ul class="flex flex-col items-center gap-8 lg:flex-row">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" class="nav-link">About</a>
                     </li>
                     <li>
-                        <a href="#">Popular</a>
+                        <a href="#" class="nav-link">Popular</a>
                     </li>
                     <li>
-                        <a href="#">Review</a>
+                        <a href="#" class="nav-link">Review</a>
                     </li>
                 </ul>
             </div>
+
+            <div class="text-xl sm:text-2xl cursor-pointer z-50 lg:hidden">
+                <i class="ri-menu-line" id="hamburger"></i>
+            </div>
         </nav>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+
 </body>
 </html>
