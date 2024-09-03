@@ -27,3 +27,11 @@ section {
 h1 {
   @apply text-golden-brown text-2xl font-bold;
 }
+
+h2 {
+  @apply text-golden-brown text-lg font-bold;
+}
+
+.card-category:hover {
+  @apply duration-300 shadow-xl;
+}

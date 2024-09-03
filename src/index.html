@@ -24,7 +24,7 @@
 
             <div id="nav-menu" class="absolute bg-beige top-5 left-[-100%] min-h-[100vh] w-full flex items-center justify-center duration-300
                 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto rounded-2xl">
-                <div class="px-20 py-4 border border-golden-brown rounded-2xl">
+                <div class="px-20 py-4 border border-golden-brown rounded-2xl lg:border-none">
                     <ul class="flex flex-col items-center gap-8 lg:flex-row">
                         <li class="nav-hov">
                             <a href="#home" class="nav-link">Home</a>
@@ -73,32 +73,80 @@
 
                     <!-- image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="../public/img/home-alkendi-rmbg.png" alt="" class="w-96">
+                        <img src="../public/img/home-alkendi-rmbg.png" alt="gambar-toko">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- about -->
-        <section id="about" class="bg-beige py-10 rounded-2xl">
+        <section class=" bg-beige py-10 rounded-2xl" id="about">
             <div class="container">
-                <div class="space-y-8">
+                <div class="space-y-10">
                     <h1 class="text-center">About Us</h1>
 
-                    <div class="flex flex-col items-center lg:flex-row lg:gap-x-5">
+                    <div class="flex flex-col lg:flex-row lg:gap-x-5">
                         <!-- image -->
                         <div class="w-full lg:w-1/2">
-                            <img src="../public/img/toko-alkendi.jpg" alt="" class="rounded-lg">
+                            <img src="../public/img/toko-alkendi.jpg" alt="" class="rounded-2xl">
                         </div>
 
                         <!-- text -->
                         <div class="mt-5 space-y-5 w-full lg:w-1/2">
                             <p class="text-md text-red-ebony font-semibold">
-                                Toko kami menyediakan aneka toples bumbu dapur, Botol, Toples, Jerigen, Thinwall, Seal,
-                                Segel, dll. Kami ingin selalu berusaha memberikan pelayanan terbaik dan memprioritaskan
+                                Toko kami menyediakan aneka toples bumbu dapur, Botol, Toples, Jerigen,
+                                Thinwall, Seal,
+                                Segel, dll. Kami ingin selalu berusaha memberikan pelayanan terbaik dan
+                                memprioritaskan
                                 layanan konsumen, dengan tujuan tercapainya kepuasan pelanggan
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- category product -->
+        <section>
+            <div class="container">
+                <div class="space-y-8">
+                    <h1 class="text-center">Kategori Barang</h1>
+                    <div class="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
+                        <!-- card 1 -->
+                        <a href="toplesKaca.html" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
+                            <div class="overflow-hidden rounded-xl">
+                                <img src="../public/img/toples-kaca-1.jpg" alt=""
+                                    class="rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-110">
+                            </div>
+                            <h2 class="text-center">Toples Kaca</h2>
+                        </a>
+
+                        <!-- card 2 -->
+                        <a href="#" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
+                            <div class="overflow-hidden rounded-xl">
+                                <img src="../public/img/toples-plastik-1.jpg" alt=""
+                                    class="rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-110">
+                            </div>
+                            <h2 class="text-center">Toples Plastik</h2>
+                        </a>
+
+                        <!-- card 3 -->
+                        <a href="#" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
+                            <div class="overflow-hidden rounded-xl">
+                                <img src="../public/img/botol-kaca-1.jpg" alt=""
+                                    class="rounded-xl h-32 w-full transition-transform duration-500 ease-in-out transform hover:scale-110">
+                            </div>
+                            <h2 class="text-center">Botol Kaca</h2>
+                        </a>
+
+                        <!-- card 4 -->
+                        <a href="#" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
+                            <div class="overflow-hidden rounded-xl">
+                                <img src="../public/img/botol-plastik-1.jpg" alt=""
+                                    class="rounded-xl transition-transform duration-500 ease-in-out transform hover:scale-110">
+                            </div>
+                            <h2 class="text-center">Botol Plastik</h2>
+                        </a>
                     </div>
                 </div>
             </div>
