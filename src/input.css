@@ -23,3 +23,7 @@ section {
 #btn-home:hover {
   @apply bg-ebony text-white;
 }
+
+h1 {
+  @apply text-golden-brown text-2xl font-bold;
+}
