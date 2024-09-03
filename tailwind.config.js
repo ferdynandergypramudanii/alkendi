@@ -8,6 +8,10 @@ module.exports = {
         "golden-brown": "#966919",
         beige: "#e4d5b7",
         "beige-tua": "#9f9580",
+        "beige-cerah": "#f5f5dc",
+        xanthous: "#FFBA49",
+        jonquil: "#F9C80E",
+        ebony: "#656256",
       },
     },
     screens: {
@@ -20,7 +24,7 @@ module.exports = {
       center: true,
       padding: {
         DEFAULT: "12px",
-        md: "32px",
+        md: "30px",
       },
     },
     fontFamily: {

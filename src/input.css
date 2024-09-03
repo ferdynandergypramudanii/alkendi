@@ -17,5 +17,9 @@ html {
 }
 
 section {
-  @apply py-20 md:py-28;
+  @apply py-28;
+}
+
+#btn-home:hover {
+  @apply bg-ebony text-white;
 }

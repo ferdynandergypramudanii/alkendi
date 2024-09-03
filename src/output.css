@@ -573,8 +573,8 @@ video {
 @media (min-width: 540px){
   .container{
     max-width: 540px;
-    padding-right: 32px;
-    padding-left: 32px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -596,6 +596,10 @@ video {
 
 .absolute{
   position: absolute;
+}
+
+.relative{
+  position: relative;
 }
 
 .left-0{
@@ -630,6 +634,10 @@ video {
   min-height: 100vh;
 }
 
+.w-96{
+  width: 24rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -658,6 +666,17 @@ video {
   gap: 2rem;
 }
 
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -666,14 +685,64 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
 .rounded-b-2xl{
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
 
+.border{
+  border-width: 1px;
+}
+
+.border-golden-brown{
+  --tw-border-opacity: 1;
+  border-color: rgb(150 105 25 / var(--tw-border-opacity));
+}
+
+.border-purple-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(192 132 252 / var(--tw-border-opacity));
+}
+
+.border-red-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(252 165 165 / var(--tw-border-opacity));
+}
+
 .bg-beige{
   --tw-bg-opacity: 1;
   background-color: rgb(228 213 183 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.p-5{
+  padding: 1.25rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .font-Fira{
@@ -692,6 +761,15 @@ video {
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-ebony{
+  --tw-text-opacity: 1;
+  color: rgb(101 98 86 / var(--tw-text-opacity));
 }
 
 .text-golden-brown{
@@ -731,15 +809,15 @@ html{
 }
 
 section{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
-@media (min-width: 540px){
-  section{
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-  }
+#btn-home:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(101 98 86 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 340px){
@@ -765,6 +843,10 @@ section{
   .lg\:min-h-fit{
     min-height: -moz-fit-content;
     min-height: fit-content;
+  }
+
+  .lg\:w-1\/2{
+    width: 50%;
   }
 
   .lg\:w-auto{
