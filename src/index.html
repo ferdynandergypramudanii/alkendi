@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,41 +9,52 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="../public/img/favicon.png" type="image/x-icon">
 
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 
     <link href="./output.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- HEADER -->
-    <header id="navbar" class="fixed w-full top-0 left-0 z-50">
+    <header id="navbar" class="fixed  w-full bg-beige top-0 left-0 z-50 shadow-md rounded-b-2xl">
         <nav class="container flex items-center justify-between h-16 sm:h-20">
-            <div class="font-Fira text-2xl">alkendi</div>
+            <div class="font-Fira text-golden-brown text-2xl font-bold"><span><i class="ri-store-2-line"></i></span>
+                alkendi
+            </div>
 
-            <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[100vh] w-full flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+            <div id="nav-menu" class="absolute bg-beige top-0 left-[-100%] min-h-[100vh] w-full flex items-center justify-center duration-300
+                overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto rounded-2xl">
                 <ul class="flex flex-col items-center gap-8 lg:flex-row">
-                    <li>
+                    <li class="nav-hov">
                         <a href="#" class="nav-link">Home</a>
                     </li>
-                    <li>
+                    <li class="nav-hov">
                         <a href="#" class="nav-link">About</a>
                     </li>
-                    <li>
+                    <li class="nav-hov">
                         <a href="#" class="nav-link">Popular</a>
                     </li>
-                    <li>
+                    <li class="nav-hov">
                         <a href="#" class="nav-link">Review</a>
                     </li>
                 </ul>
             </div>
 
             <div class="text-xl sm:text-2xl cursor-pointer z-50 lg:hidden">
-                <i class="ri-menu-line" id="hamburger"></i>
+                <i class="ri-menu-line text-golden-brown" id="hamburger"></i>
             </div>
         </nav>
     </header>
+
+    <main>
+        <section class="">
+            <div class="container">
+                <h1>Hello</h1>
+            </div>
+        </section>
+    </main>
+
+
 
 
 
@@ -59,4 +71,5 @@
     <script src="main.js"></script>
 
 </body>
+
 </html>

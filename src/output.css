@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Itim&display=swap");
 
 /*
 ! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
@@ -662,6 +662,20 @@ video {
   overflow: hidden;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
+.rounded-b-2xl{
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.bg-beige{
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 213 183 / var(--tw-bg-opacity));
+}
+
 .font-Fira{
   font-family: Fira Sans Condensed, sans-serif;
 }
@@ -676,6 +690,21 @@ video {
   line-height: 1.75rem;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
+.text-golden-brown{
+  --tw-text-opacity: 1;
+  color: rgb(150 105 25 / var(--tw-text-opacity));
+}
+
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .duration-300{
   transition-duration: 300ms;
 }
@@ -683,6 +712,34 @@ video {
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+.nav-hov{
+  background-color: transparent;
+  padding: 0.75rem;
+  font-family: Itim, cursive;
+  --tw-text-opacity: 1;
+  color: rgb(150 105 25 / var(--tw-text-opacity));
+  transition-duration: 300ms;
+}
+
+.nav-hov:hover{
+  border-radius: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(195 176 145 / var(--tw-bg-opacity));
+  font-weight: 700;
+}
+
+section{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 540px){
+  section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
 }
 
 @media (min-width: 340px){

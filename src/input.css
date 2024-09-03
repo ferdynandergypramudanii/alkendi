@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Itim&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-    @apply overflow-x-hidden scroll-smooth;
+  @apply overflow-x-hidden scroll-smooth;
+}
+
+.nav-hov {
+  @apply font-Itim text-golden-brown bg-transparent p-3 duration-300;
+}
+
+.nav-hov:hover {
+  @apply bg-khaki rounded-3xl font-bold;
+}
+
+section {
+  @apply py-20 md:py-28;
 }
