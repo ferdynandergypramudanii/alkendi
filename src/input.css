@@ -33,7 +33,7 @@ h2 {
 }
 
 .swiper {
-  @apply max-w-[90%];
+  @apply sm:max-w-[95%] md:max-w-[90%];
 }
 
 .before-card {
@@ -41,9 +41,17 @@ h2 {
 }
 
 .button-next-c {
-  @apply hidden xl:block lg:absolute top-40 right-10 z-20 border rounded-full w-8 text-center shadow-md;
+  @apply hidden xl:block lg:absolute top-32 right-7 z-20 border rounded-full w-8 text-center shadow-md;
 }
 
 .button-prev-c {
-  @apply hidden xl:block lg:absolute top-40 left-10 z-20 border rounded-full w-8 text-center shadow-md;
+  @apply hidden xl:block lg:absolute top-32 left-7 z-20 border rounded-full w-8 text-center shadow-md;
+}
+
+.swiper2 {
+  @apply max-w-[100%];
+}
+
+.swiper-pagination-bullet {
+  @apply bg-golden-brown;
 }

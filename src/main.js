@@ -14,24 +14,16 @@ navLink.forEach((link) => {
   });
 });
 
-// swiperjs
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
+// swiperjs best seller
+const swiper1 = new Swiper(".swiper", {
   loop: true,
   autoplay: {
-    delay: 2000,
+    delay: 1500,
   },
   spaceBetween: 30,
   grabCursor: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-
   breakpoints: {
-    320: {
+    340: {
       slidesPerView: 2,
     },
     768: {
@@ -46,5 +38,34 @@ const swiper = new Swiper(".swiper", {
   navigation: {
     nextEl: ".button-next-c",
     prevEl: ".button-prev-c",
+  },
+});
+
+// swiperjs Review
+let swiper2 = new Swiper(".swiper2", {
+  // Optional parameters
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+  spaceBetween: 30,
+  grabCursor: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination2",
+    clickable: true,
+  },
+
+  breakpoints: {
+    340: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1180: {
+      slidesPerView: 3,
+    },
   },
 });
