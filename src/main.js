@@ -20,7 +20,7 @@ const swiper1 = new Swiper(".swiper", {
   autoplay: {
     delay: 1500,
   },
-  spaceBetween: 30,
+  spaceBetween: 25,
   grabCursor: true,
   breakpoints: {
     340: {
@@ -48,7 +48,7 @@ let swiper2 = new Swiper(".swiper2", {
   autoplay: {
     delay: 3000,
   },
-  spaceBetween: 30,
+  spaceBetween: 25,
   grabCursor: true,
 
   // If we need pagination

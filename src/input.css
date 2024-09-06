@@ -21,7 +21,7 @@ html {
 }
 
 h1 {
-  @apply text-golden-brown text-2xl font-bold;
+  @apply text-golden-brown text-2xl lg:text-3xl font-bold font-Itim;
 }
 
 h2 {
@@ -33,7 +33,7 @@ h2 {
 }
 
 .swiper {
-  @apply sm:max-w-[95%] md:max-w-[90%];
+  @apply max-w-[100%] md:max-w-[90%] lg:max-w-[85%];
 }
 
 .before-card {
@@ -54,4 +54,16 @@ h2 {
 
 .swiper-pagination-bullet {
   @apply bg-golden-brown;
+}
+
+.p-popular {
+  @apply text-sm font-medium md:text-lg font-Itim md:font-semibold text-golden-brown;
+}
+
+.h3-popular {
+  @apply text-sm font-medium md:text-lg font-Itim md:font-bold text-end text-golden-brown;
+}
+
+.p-review {
+  @apply text-sm font-medium lg:text-lg font-Itim lg:font-bold text-golden-brown;
 }
