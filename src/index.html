@@ -11,6 +11,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 
+    <!-- swiperjs  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link href="./output.css" rel="stylesheet">
 </head>
 
@@ -64,7 +67,7 @@
                             yang
                             dirancang untuk
                             memenuhi semua kebutuhan anda</p>
-                        <div class="py-4">
+                        <div class="py-4 text-center md:text-start">
                             <button id="btn-home"
                                 class="px-5 py-2 bg-transparent text-golden-brown font-semibold border border-golden-brown rounded-xl duration-300">Explore
                                 more
@@ -73,7 +76,7 @@
                     </div>
 
                     <!-- image -->
-                    <div class="w-full lg:w-1/2">
+                    <div class="w-full lg:w-1/2 border">
                         <img src="../public/img/home-alkendi-rmbg.png" alt="gambar-toko">
                     </div>
                 </div>
@@ -109,12 +112,15 @@
             </div>
         </section>
 
+        <div class="text-center py-14">
+            <h1>Kategori Barang</h1>
+        </div>
+
         <!-- category product -->
-        <section class="pt-10 pb-0">
+        <section class="py-0">
             <div class="container">
-                <div class="space-y-10">
-                    <h1 class="text-center">Kategori Barang</h1>
-                    <div class="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
+                <div>
+                    <div class="pl-0 grid grid-cols-2 gap-3 md:gap-5 md:grid-cols-3 lg:grid-cols-4  xl:pl-24">
                         <!-- card 1 -->
                         <a href="toplesKaca.html" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
                             <div class="overflow-hidden rounded-xl">
@@ -136,7 +142,7 @@
                         <!-- card 3 -->
                         <a href="#" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
                             <div class="overflow-hidden rounded-xl">
-                                <img src="../public/img/botol-kaca-1.jpg" alt=""
+                                <img src="../public/img/toples-kaca-1.jpg" alt=""
                                     class="rounded-xl h-32 w-full transition-transform duration-500 ease-in-out transform hover:scale-110">
                             </div>
                             <h2 class="text-center">Botol Kaca</h2>
@@ -155,106 +161,131 @@
             </div>
         </section>
 
+        <div class="text-center py-14">
+            <h1>Best Seller</h1>
+        </div>
+
         <!-- best seller product -->
-        <section id="popular" class="pt-10">
-            <div class="container">
-                <div class="w-fit space-y-10">
-                    <h1 class="text-center">Best Seller</h1>
-
-                    <div class="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
-                        <!-- card 1 -->
-                        <div class="p-5 w-40 border border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+        <section id="popular py-0">
+            <div class="container relative">
+                <div class="swiper">
+                    <div class="swiper-wrapper flex mb-10 relative">
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/botol-plastik-2.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
 
-                        <!-- card 2 -->
-                        <div class="p-5 w-40 border border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/botol-plastik-1.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
 
-                        <!-- card 3 -->
-                        <div class="p-5 w-40 border border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/botol-plastik-2.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
 
-                        <!-- card 4 -->
-                        <div class="p-5 w-40 border border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
 
-                        <!-- card 5 -->
-                        <div class="p-5 w-40 border border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
 
-                        <!-- card 6 -->
-                        <div class="p-5 border w-40 border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/toples-plastik-1.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
 
-                        <!-- card 7 -->
-                        <div class="p-5 w-40 border border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/botol-plastik-1.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
 
-                        <!-- card 8 -->
-                        <div class="p-5 w-40 border border-golden-brown rounded-xl ">
-                            <div class="space-y-3">
-                                <img src="../public/img/toples-kaca-1.jpg" alt="" class="w-32 rounded-xl">
-                                <div>
-                                    <h2 class="text-sm">Toples Kaca</h2>
-                                    <h2 class="text-md">Rp 10.000/pcs</h2>
-                                </div>
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/botol-plastik-1.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
+                            </div>
+                        </div>
+
+                        <!-- card -->
+                        <div class=" w-36 swiper-slide shadow-lg rounded-b-lg">
+                            <div class="flex justify-center">
+                                <img src="../public/img/botol-plastik-2.jpg" alt="" class="w-full rounded-t-lg">
+                            </div>
+                            <div class="rounded-b-2xl p-3">
+                                <p class="text-xs">Botol plastik</p>
+                                <h3 class="text-sm">Rp. 3000</h3>
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-pagination hidden lg:static"></div>
+                </div>
+                <div>
+                    <i class="ri-arrow-right-line button-next-c text-2xl"></i>
+                    <i class="ri-arrow-left-line button-prev-c text-xl"></i>
                 </div>
             </div>
         </section>
 
+        <div class="text-center py-10">
+            <h1>Review</h1>
+        </div>
 
+        <section id="review" class="pt-10"">
+            <div class=" container">
+            </div>
+        </section>
     </main>
 
 
@@ -270,9 +301,12 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 
 </body>
 
 </html>
+
+
+<!-- grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 -->

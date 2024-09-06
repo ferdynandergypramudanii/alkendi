@@ -16,10 +16,6 @@ html {
   @apply bg-khaki rounded-3xl font-bold;
 }
 
-section {
-  @apply py-28;
-}
-
 #btn-home:hover {
   @apply bg-ebony text-white;
 }
@@ -34,4 +30,20 @@ h2 {
 
 .card-category:hover {
   @apply duration-300 shadow-xl;
+}
+
+.swiper {
+  @apply max-w-[90%];
+}
+
+.before-card {
+  @apply max-w-[30%];
+}
+
+.button-next-c {
+  @apply hidden xl:block lg:absolute top-40 right-10 z-20 border rounded-full w-8 text-center shadow-md;
+}
+
+.button-prev-c {
+  @apply hidden xl:block lg:absolute top-40 left-10 z-20 border rounded-full w-8 text-center shadow-md;
 }
