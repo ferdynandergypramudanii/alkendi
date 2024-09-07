@@ -14,7 +14,6 @@
     <!-- swiperjs  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="style.css">
 
     <link href="./output.css" rel="stylesheet">
 </head>
@@ -108,6 +107,8 @@
                                 Segel, dll. Kami ingin selalu berusaha memberikan pelayanan terbaik dan
                                 memprioritaskan
                                 layanan konsumen, dengan tujuan tercapainya kepuasan pelanggan
+
+                                Jam operasional
                             </p>
                         </div>
                     </div>
@@ -123,8 +124,8 @@
 
         <!-- category product -->
         <section>
-            <div class="container">
-                <div class="text-center">
+            <div class="container flex justify-center">
+                <div class="text-center md:border-4 md:p-12 md:rounded-3xl w-fit md:border-beige-tua ">
                     <div class="flex gap-10 flex-wrap justify-center ">
                         <!-- card 1 -->
                         <a href="toplesKaca.html" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
@@ -569,9 +570,46 @@
         </section>
     </main>
 
-    <footer class="mt-14 w-full bg-beige">
+    <footer class="mt-14 w-full bg-beige rounded-t-2xl border-t-2 border-golden-brown">
+        <div class="container md:px-20 lg:px-10">
+            <div class="flex flex-col sm:flex-col sm:items-center lg:flex-row lg:justify-evenly">
+                <!-- e-commerce, sosmed, cs wa -->
+                <div class="sm:w-full lg:w-1/2">
+                    <h2 class="h2-footer mt-10 text-center lg:text-start">E-Commerce</h2>
+                    <div class="flex py-3 w-full gap-x-5 justify-center lg:justify-normal lg:pl-10">
+                        <img src="../public/img/logo_shopee.png" alt="" class="w-11">
+                        <img src="../public/img/logo_tokped.png" alt="" class="w-11">
+                    </div>
+                    <h2 class="h2-footer mt-3 text-center lg:text-start">Social Media</h2>
+                    <div class="w-full py-3 flex justify-center lg:justify-normal lg:pl-10">
+                        <i class="ri-instagram-fill text-3xl text-golden-brown border"></i>
+                        <i class="ri-facebook-fill text-3xl text-golden-brown"></i>
+                        <i class="ri-tiktok-fill text-3xl text-golden-brown"></i>
+                    </div>
+                </div>
 
+                <!-- maps -->
+                <div
+                    class="w-fit h-auto border-2 border-golden-brown p-2 mt-10 rounded-md flex sm:justify-center md:justify-normal lg:justify-normal lg:w-1/2 overflow-hidden">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253379.89346785808!2d110.77051162719722!3d-7.118948855936605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70af854049b299%3A0x65bef88a425bf0c7!2sTOKO%20ALKENDI!5e0!3m2!1sid!2sid!4v1725675481377!5m2!1sid!2sid"
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        class="w-full">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class=" mt-10 py-3 border-y-2 border-golden-brown">
+            <div>
+                <h3 class="text-base text-center font-Itim font-semibold text-golden-brown">Copyright 2024
+                    Ferdynand Ergy P. All rights reserved.
+                </h3>
+            </div>
+        </div>
     </footer>
+
+    <!-- class="rounded-md" class="min-w-[300px] md:min-w-[800px] lg:min-w-[1000px]" -->
 
 
 
