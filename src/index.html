@@ -97,7 +97,7 @@
                     <div class="mt-9">
                         <a href="#about">
                             <button id="btn-home"
-                                class="flex text-center items-center justify-center font-Itim gap-x-3 px-6 py-2 bg-transparent text-lg text-golden-brown font-semibold border-2 border-golden-brown rounded-xl duration-300 mt-3">Explore
+                                class="flex text-center items-center justify-center font-Itim gap-x-3 px-6 py-2 bg-transparent text-lg text-golden-brown font-semibold border-2 border-golden-brown rounded-xl duration-300 mt-3 hover:translate-y-1">Explore
                                 more <span><i class="ri-arrow-down-circle-line text-2xl"></i></span>
                             </button>
                         </a>
@@ -116,12 +116,12 @@
         </div>
 
         <!-- about -->
-        <section class=" bg-beige py-10 border-y-2 border-golden-brown">
+        <section class=" bg-beige py-10 border-y-2 border-golden-brown relative">
             <div class="container">
                 <div class="space-y-10">
                     <div class="flex flex-col lg:flex-row lg:gap-x-5">
                         <!-- image -->
-                        <div class="w-full lg:w-1/3 border">
+                        <div class="w-full lg:w-1/3">
                             <img src="../public/img/toko-alkendi.jpg" alt="" class="rounded-md">
                         </div>
 
@@ -153,6 +153,8 @@
                     </div>
                 </div>
             </div>
+            <img src="../public/img/shop.png" alt="" class="hidden xl:block xl:absolute z-50 top-[85%] left-20">
+            <img src="../public/img/truck.png" alt="" class="hidden xl:block xl:absolute z-40 top-[82%] left-56">
         </section>
 
         <div class="text-center py-14">
@@ -164,7 +166,7 @@
         <!-- category product -->
         <section>
             <div class="container flex justify-center">
-                <div class="text-center md:border-4 md:p-12 md:rounded-3xl w-fit md:border-beige-tua ">
+                <div class="text-center md:border-4 md:p-12 md:rounded-xl w-fit md:border-beige-tua ">
                     <div class="flex gap-10 flex-wrap justify-center ">
                         <!-- card 1 -->
                         <a href="toplesKaca.html" class="card-category w-40 p-5 bg-beige rounded-xl space-y-3">
@@ -609,31 +611,41 @@
         </section>
     </main>
 
-    <footer class="mt-14 w-full bg-beige rounded-t-2xl border-t-2 border-golden-brown">
+    <footer class="mt-14 w-full bg-beige rounded-t-2xl border-t-2 border-golden-brown relative">
         <div class="container md:px-20 lg:px-10">
-            <div class="flex flex-col sm:flex-col sm:items-center lg:flex-row lg:justify-evenly">
+            <div
+                class="flex flex-col sm:flex-col lg:pt-10 sm:items-center lg:flex-row lg:justify-evenly lg:items-start ">
                 <!-- e-commerce, sosmed, cs wa -->
-                <div class="sm:w-full lg:w-1/2">
-                    <h2 class="h2-footer mt-10 text-center lg:text-start">E-Commerce</h2>
-                    <div class="flex py-3 w-full gap-x-5 justify-center lg:justify-normal lg:pl-10">
-                        <img src="../public/img/logo_shopee.png" alt="" class="w-11">
-                        <img src="../public/img/logo_tokped.png" alt="" class="w-11">
+                <div class="w-fit border border-golden-brown">
+                    <h2 class="h2-footer text-center lg:text-start">E-Commerce</h2>
+                    <div class="flex py-3 w-full gap-x-5 justify-center lg:justify-normal lg:pl-7">
+                        <img src="../public/img/logo_shopee.png" alt=""
+                            class="w-11 transition-transform duration-300 ease-in-out hover:scale-110">
+                        <img src="../public/img/logo_tokped.png" alt=""
+                            class="w-11 transition-transform duration-300 ease-in-out hover:scale-110">
                     </div>
                     <h2 class="h2-footer mt-3 text-center lg:text-start">Social Media</h2>
-                    <div class="w-full py-3 flex justify-center lg:justify-normal lg:pl-10">
-                        <i class="ri-instagram-fill text-3xl text-golden-brown border"></i>
-                        <i class="ri-facebook-fill text-3xl text-golden-brown"></i>
-                        <i class="ri-tiktok-fill text-3xl text-golden-brown"></i>
+                    <div class="w-full py-3 flex justify-center lg:justify-normal lg:pl-7 gap-x-2">
+                        <i class="ri-instagram-fill text-3xl text-golden-brown duration-300 hover:translate-x-1"></i>
+                        <i class="ri-facebook-fill text-3xl text-golden-brown duration-300 hover:translate-x-1"></i>
+                        <i class="ri-tiktok-fill text-3xl text-golden-brown duration-300 hover:translate-x-1"></i>
+                    </div>
+                </div>
+
+                <div class="border border-golden-brown w-1/3">
+                    <div class="space-y-3 text-base text-golden-brown font-medium font-Itim">
+                        <h3>Sukoharjo, Krangganharjo, Kec. Toroh, Kabupaten Grobogan, Jawa Tengah 58171</h3>
+                        <p>Terima kasih... <br> Selamat berbelanja... <br> Salam sayang, Alkendi 🥰</p>
                     </div>
                 </div>
 
                 <!-- maps -->
                 <div
-                    class="w-fit h-auto border-2 border-golden-brown p-2 mt-10 rounded-md flex sm:justify-center md:justify-normal lg:justify-normal lg:w-1/2 overflow-hidden">
+                    class="w-fit h-auto border-2 border-golden-brown p-2 rounded-md flex sm:justify-center md:justify-normal lg:justify-normal lg:w-1/2 overflow-hidden">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253379.89346785808!2d110.77051162719722!3d-7.118948855936605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70af854049b299%3A0x65bef88a425bf0c7!2sTOKO%20ALKENDI!5e0!3m2!1sid!2sid!4v1725675481377!5m2!1sid!2sid"
                         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                        height="250" class="w-full">
+                        height="250" class="w-full rounded-md">
                     </iframe>
                 </div>
             </div>
@@ -641,15 +653,19 @@
         <!-- copyright -->
         <div class=" mt-10 py-3 border-y-2 border-golden-brown">
             <div>
-                <h3 class="text-base text-center font-Itim font-semibold text-golden-brown">Copyright 2024
+                <h3 class="text-base text-center font-Itim font-semibold text-golden-brown">Copyright <span><i
+                            class="ri-copyright-line text-lg text-golden-brown"></i></span> 2024
                     Ferdynand Ergy P. All rights reserved.
                 </h3>
             </div>
         </div>
     </footer>
 
-    <!-- class="rounded-md" class="min-w-[300px] md:min-w-[800px] lg:min-w-[1000px]" -->
-
+    <!-- whatsapp -->
+    <a id="swap-up-wa"
+        class="w-14 h-14 bg-golden-brown border-4 border-beige shadow-xl flex justify-center items-center rounded-full cursor-pointer fixed right-4 -bottom-1/2 duration-300 hover:-translate-y-1 z-50">
+        <i class="ri-whatsapp-fill text-beige text-3xl"></i>
+    </a>
 
 
 

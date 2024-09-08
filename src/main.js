@@ -69,3 +69,18 @@ let swiper2 = new Swiper(".swiper2", {
     },
   },
 });
+
+// whatsapp
+const swapUpWa = () => {
+  const waBtn = document.getElementById("swap-up-wa");
+
+  if (this.scrollY >= 100) {
+    waBtn.classList.remove("-bottom-1/2");
+    waBtn.classList.add("bottom-4");
+  } else {
+    waBtn.classList.add("-bottom-1/2");
+    waBtn.classList.remove("bottom-4");
+  }
+};
+
+window.addEventListener("scroll", swapUpWa);
