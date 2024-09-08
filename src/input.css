@@ -65,7 +65,7 @@ h2 {
 }
 
 .p-review {
-  @apply text-sm font-medium lg:text-lg font-Itim lg:font-bold text-golden-brown;
+  @apply text-base font-medium lg:text-lg font-Itim lg:font-bold text-golden-brown;
 }
 
 .h2-footer {
