@@ -681,6 +681,21 @@ video {
   right: 13rem;
 }
 
+.inset-x-3{
+  left: 0.75rem;
+  right: 0.75rem;
+}
+
+.inset-y-3{
+  top: 0.75rem;
+  bottom: 0.75rem;
+}
+
+.inset-x-14{
+  left: 3.5rem;
+  right: 3.5rem;
+}
+
 .-bottom-1\/2{
   bottom: -50%;
 }
@@ -1547,6 +1562,11 @@ h2{
 }
 
 @media (min-width: 340px){
+  .sm\:inset-y-32{
+    top: 8rem;
+    bottom: 8rem;
+  }
+
   .sm\:mt-10{
     margin-top: 2.5rem;
   }
@@ -1707,6 +1727,31 @@ h2{
     position: static;
   }
 
+  .lg\:inset-y-40{
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .lg\:inset-y-44{
+    top: 11rem;
+    bottom: 11rem;
+  }
+
+  .lg\:inset-x-40{
+    left: 10rem;
+    right: 10rem;
+  }
+
+  .lg\:inset-x-52{
+    left: 13rem;
+    right: 13rem;
+  }
+
+  .lg\:inset-x-56{
+    left: 14rem;
+    right: 14rem;
+  }
+
   .lg\:my-10{
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -1763,6 +1808,10 @@ h2{
 
   .lg\:w-auto{
     width: auto;
+  }
+
+  .lg\:w-\[40\%\]{
+    width: 40%;
   }
 
   .lg\:flex-row{
@@ -1886,6 +1935,56 @@ h2{
     position: absolute;
   }
 
+  .xl\:inset-x-20{
+    left: 5rem;
+    right: 5rem;
+  }
+
+  .xl\:inset-y-24{
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .xl\:inset-x-48{
+    left: 12rem;
+    right: 12rem;
+  }
+
+  .xl\:inset-x-72{
+    left: 18rem;
+    right: 18rem;
+  }
+
+  .xl\:inset-x-80{
+    left: 20rem;
+    right: 20rem;
+  }
+
+  .xl\:inset-x-96{
+    left: 24rem;
+    right: 24rem;
+  }
+
+  .xl\:inset-y-44{
+    top: 11rem;
+    bottom: 11rem;
+  }
+
+  .xl\:inset-y-36{
+    top: 9rem;
+    bottom: 9rem;
+  }
+
+  .xl\:inset-y-32{
+    top: 8rem;
+    bottom: 8rem;
+  }
+
+  .xl\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .xl\:mt-0{
     margin-top: 0px;
   }
@@ -1916,6 +2015,10 @@ h2{
 
   .xl\:w-52{
     width: 13rem;
+  }
+
+  .xl\:w-\[30\%\]{
+    width: 30%;
   }
 
   .xl\:flex-row{
