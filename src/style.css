@@ -1,0 +1,13 @@
+@media screen and (min-width: 820px) {
+  .h1-home {
+    margin-top: 1rem;
+  }
+
+  #icon-home {
+    margin-top: 2rem;
+  }
+
+  #btn-explore {
+    margin-top: 2rem;
+  }
+}
