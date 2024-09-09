@@ -84,3 +84,18 @@ const swapUpWa = () => {
 };
 
 window.addEventListener("scroll", swapUpWa);
+
+// Modal view product
+const productCards = document.getElementsByClassName("product-card");
+const productModal = document.getElementById("product-modal");
+const closeModal = document.getElementById("close-modal");
+
+Array.from(productCards).forEach((productCard) => {
+  productCard.addEventListener("click", () => {
+    productModal.classList.remove("hidden");
+  });
+});
+
+closeModal.addEventListener("click", () => {
+  productModal.classList.add("hidden");
+});
