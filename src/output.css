@@ -1406,6 +1406,96 @@ h2{
     bottom: 8rem;
   }
 
+  .sm\:inset-y-auto{
+    top: auto;
+    bottom: auto;
+  }
+
+  .sm\:inset-y-36{
+    top: 9rem;
+    bottom: 9rem;
+  }
+
+  .sm\:inset-y-40{
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .sm\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .sm\:inset-x-20{
+    left: 5rem;
+    right: 5rem;
+  }
+
+  .sm\:inset-x-16{
+    left: 4rem;
+    right: 4rem;
+  }
+
+  .sm\:inset-x-auto{
+    left: auto;
+    right: auto;
+  }
+
+  .sm\:inset-x-24{
+    left: 6rem;
+    right: 6rem;
+  }
+
+  .sm\:inset-x-\[50\%\]{
+    left: 50%;
+    right: 50%;
+  }
+
+  .sm\:inset-x-\[25\%\]{
+    left: 25%;
+    right: 25%;
+  }
+
+  .sm\:inset-x-\[27\%\]{
+    left: 27%;
+    right: 27%;
+  }
+
+  .sm\:inset-x-\[26\%\]{
+    left: 26%;
+    right: 26%;
+  }
+
+  .sm\:inset-x-\[30\%\]{
+    left: 30%;
+    right: 30%;
+  }
+
+  .sm\:inset-x-\[20\%\]{
+    left: 20%;
+    right: 20%;
+  }
+
+  .sm\:inset-x-\[19\%\]{
+    left: 19%;
+    right: 19%;
+  }
+
+  .sm\:inset-x-\[17\%\]{
+    left: 17%;
+    right: 17%;
+  }
+
+  .sm\:inset-x-\[18\%\]{
+    left: 18%;
+    right: 18%;
+  }
+
+  .sm\:inset-x-\[18\.5\%\]{
+    left: 18.5%;
+    right: 18.5%;
+  }
+
   .sm\:mt-10{
     margin-top: 2.5rem;
   }
@@ -1762,16 +1852,6 @@ h2{
   .xl\:inset-x-20{
     left: 5rem;
     right: 5rem;
-  }
-
-  .xl\:inset-y-32{
-    top: 8rem;
-    bottom: 8rem;
-  }
-
-  .xl\:inset-y-28{
-    top: 7rem;
-    bottom: 7rem;
   }
 
   .xl\:inset-y-24{
